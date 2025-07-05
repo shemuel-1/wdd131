@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Trebuchet MS', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f3eeee;
+}
+
+main p {
+    line-height: 1.5;
+    padding: 15px 0;
+    font-size: 1em;
+    color: #333;
+}
+
+h1, h2, h3 {
+    background-color:aqua ;
+    color: #051022;
+    padding: 13px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#course-title {
+    display: block;
+    font-size: 1.3em;
+    
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color:#fff;
+    color: #000000;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.card{
+    box-shadow: 0 2px 8px #000000;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.card li{
+    margin-left: 10px;
+    padding: 10px;
+}
+
+#about {
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+}
+
+#about img{
+    width: 150px;
+    height: auto;
+    float: right;
+    margin: 10px;
+    border-radius: 8px;
+
+}
+
+#ghana {
+    clear: both;
+    padding: 30px 20px;
+    text-align: right;
+}
+
+#ghana img{
+    
+    width: 250px;
+    height: auto;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+#ghana figure {
+    text-align: center;
+    font-style:italic;
+    float: left;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.resources h2 {
+    margin-bottom: 20px;
+}
+
+.resources ul {
+    list-style:square;
+    padding: 10px;
+}
