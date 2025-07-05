@@ -7,10 +7,10 @@
 body {
     font-family:'Trebuchet MS', sans-serif;
     color: #333;
-    background-color: #f4f4f4;
+    background-color:  #e0e0e0;
 }
 
-main {
+#main {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 30px;
@@ -18,7 +18,7 @@ main {
     margin: 20px auto;
     padding: 20px;
     border-radius: 8px;
-    background-color: #f3eeee;
+
 }
 
 main p {
@@ -29,11 +29,13 @@ main p {
 }
 
 h1{
-    font-family: Kings, 'Trebuchet MS', sans-serif;
+    font-family:'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 20px;
 }
 
-h1, h2, h3 {
-    background-color:aqua ;
+h2, h3 {
+    background-color:  #FFD700;; ;
     color: #051022;
     padding: 13px;
     border-radius: 5px;
@@ -42,8 +44,11 @@ h1, h2, h3 {
 
 #course-title {
     display: block;
-    font-size: 1.3em;
-    
+    font-size: 2em;
+    font-family: Kings, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color:#FFD700;;
 }
 
 #name {
@@ -68,6 +73,7 @@ nav ul {
 nav a {
     color: #fff;
     text-decoration: none;
+    font-size: large;
 }
 
 nav a:hover {
@@ -75,13 +81,14 @@ nav a:hover {
     color: #000000;
     padding: 5px;
     border-radius: 5px;
-    font-size: large;
+    font-size: larger;
 }
 
 .card{
     box-shadow: 0 2px 8px #000000;
     padding: 15px;
     border-radius: 8px;
+    background-color: #FFF8DC;
 }
 
 .card li{
@@ -139,4 +146,16 @@ footer {
 .resources ul {
     list-style:square;
     padding: 10px;
+}
+    
+
+.resources a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: larger;
+    color: #000;
+}
+
+.resources a:hover {
+    color: #ff0000;
 }
