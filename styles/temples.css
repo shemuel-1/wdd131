@@ -16,7 +16,7 @@
         display: block;
         text-align: center;
         font-weight: 700;
-        font-size: 2.5rem;
+        font-size: 2rem;
         padding: 10px;
         font-family: kings, 'Trebuchet MS', sans-serif;
     }
@@ -34,7 +34,7 @@
         position: absolute;
         width: 200px;
         top: 60px;
-        left: 20rem;
+        left: 15rem;
         list-style: none;
         padding: 15px;
     }
