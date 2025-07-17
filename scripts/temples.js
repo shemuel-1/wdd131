@@ -1,6 +1,8 @@
-const menuToggle = document.querySelector('#menu-toggle');
-const navUl = document.querySelector('nav ul');
+const hamButton = document.querySelector('#menu-toggle');
+const nav = document.querySelector('nav');
 
-menuToggle.addEventListener('click', function() {
-    navUl.style.display = navUl.style.display === 'flex' ? 'none' : 'flex';
+hamButton.addEventListener('click', () => {
+    nav.classList.toggle('show');
+    hamButton.classList.toggle('show');
 })
+
