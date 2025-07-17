@@ -1,3 +1,126 @@
-@media (min-width: 64em) { /* 1024px / 16px = 64em */
-  /* large screen styles here */
+@media (min-width: 40em) { 
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        background-color: #FFD700;
+        width: 100%;
+    }
+
+
+    #heading {
+      display: block;
+        font-weight: 700;
+        font-size: 3rem;
+        padding: 10px;
+        font-family: kings, 'Trebuchet MS', sans-serif;
+        text-align: center;
+    }
+
+    nav {
+        background-color: #333;
+        padding: 15px;
+    
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between;
+        padding: 0 1em 0 1em;
+    }
+
+    nav li a{
+        text-decoration: none;
+        color: #fff;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    nav a:hover {
+      display: block;
+      font-style: oblique;
+      padding: 0 1rem;
+      border-left: 1px solid #fff;
+      border-right: 1px solid #fff;
+      font-weight: 700;
+    } 
+
+    #menu-toggle {
+        display: none;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        grid-column: 2/4;
+    }
+
+    body {
+        background-color: #e0e0e0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body p {
+        margin-bottom: 15px;
+        padding: 3px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        grid-column: 2/4;
+    }
+
+
+    main {
+        max-width: 1000px;
+        margin-left: 3em;
+        padding: 20px;
+        align-items: center;
+    }
+
+    main p {
+        text-align: center;
+
+    }
+
+    #intro {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+    .gallery {
+      margin: 20px;
+      display: grid;
+      grid-template-columns: 1fr  1fr 1fr 1fr;
+      gap: 1em;
+      align-items: center;
+    }
+
+    figure {
+        margin: 10px;
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    figcaption {
+        margin: 10px;
+
+    }
+
+    figure img {
+        width: 230px;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        border-top: 2px solid #FFF8DC;
+    }
 }
