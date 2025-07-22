@@ -92,11 +92,6 @@
 
     }
 
-    #intro {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-
 
     .gallery {
       margin: 20px;
