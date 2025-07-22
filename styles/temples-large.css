@@ -60,6 +60,12 @@
         font-family:Georgia, 'Times New Roman', Times, serif;
         grid-column: 2/4;
     }
+    
+    h2 {
+        text-align: center;
+        font-size: 1.5rem;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
 
     body {
         background-color: #e0e0e0;

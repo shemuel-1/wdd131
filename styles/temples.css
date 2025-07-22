@@ -86,7 +86,7 @@
         content: '✖';
     }
 
-    h1 {
+    h1, h2 {
         text-align: center;
         font-size: 2rem;
         font-family:Georgia, 'Times New Roman', Times, serif;
