@@ -7,6 +7,9 @@
     <meta name="description"
         content="Basic website showing geographical data of Japan using Javascript and standard CSS styling practices ">
     <meta name="author" content="Samuel Okwan Paintsil">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/place.css">
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/place.js" defer></script>
@@ -21,28 +24,28 @@
                 <source srcset="images/japanese-scenery-large.webp" media="min-width: 1000px">
                 <source srcset="images/japanese-scenery-medium.webp" media="max-width: 550px">
                 <img src="images/japanese-scenery-small.webp" alt="Japanese beautiful scenery">
-            </picture> 
+            </picture>
         </div>
     </header>
     <main>
         <div id="data">
             <h2>Data</h2>
-            <p>Area: </p>
-            <p>Population: </p>
-            <p>Capital: </p>
-            <p>Languages: </p>
-            <p>Currency: </p>
-            <p>Time Zone: </p>
-            <p>Calling Code: </p>
-            <p>Internet TLD: </p>
+            <p><span class="label">Area:</span> 377,973.89 km²</p>
+            <p><span class="label">Population:</span> 125 million</p>
+            <p><span class="label">Capital:</span> Tokyo</p>
+            <p><span class="label">Languages:</span> Japanese</p>
+            <p><span class="label">Currency:</span> Yen</p>
+            <p><span class="label">Time Zone:</span> UTC+09:00</p>
+            <p><span class="label">Calling Code:</span> +81</p>
+            <p><span class="label">Internet TLD:</span> .jp</p>
         </div>
         <div id="weather">
             <h2>Weather</h2>
             <img src="images/cloudy-forecast-summer-sun-icon.svg" alt="Weather Icon">
-            <p>Temperature: </p>
-            <p>Conditions: </p>
-            <p>Wind: </p>
-            <p>Wind Chill: </p>
+            <p><span class="label">Temperature:</span> 29°C</p>
+            <p><span class="label">Conditions:</span>Sunny and cloudy </p>
+            <p><span class="label">Wind:</span>3 km/h</p>
+            <p><span class="label">Wind Chill:</span><span id="windChill"> </span> </p>
         </div>
     </main>
     <footer>
