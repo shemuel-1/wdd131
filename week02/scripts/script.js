@@ -10,6 +10,7 @@ button.addEventListener("click", function () {
         li.textContent = input.value;
         deleteButton.textContent = "❌";
 
+        // Add the event listener here
         deleteButton.addEventListener("click", function () {
             list.removeChild(li);
             input.focus();
@@ -17,9 +18,8 @@ button.addEventListener("click", function () {
 
         li.appendChild(deleteButton);
         list.appendChild(li);
-        input.value = ""; // Clear input after adding
-        input.focus();
     }
+    
     else {
         alert("Please enter a chapter name.");
     }

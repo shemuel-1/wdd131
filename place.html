@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Basic website showing geographical data of Japan using Javascript and standard CSS styling practices ">
+    <meta name="author" content="Samuel Okwan Paintsil">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/place.js" defer></script>
+    <title>Japan Geographical Data</title>
+</head>
+
+<body>
+    <header>
+        <h1>Japan🎌</h1>
+        <div>
+            <picture id="scenery">
+                <source srcset="images/japanese-scenery-large.webp" media="min-width: 1000px">
+                <source srcset="images/japanese-scenery-medium.webp" media="max-width: 550px">
+                <img src="images/japanese-scenery-small.webp" alt="Japanese beautiful scenery">
+            </picture> 
+        </div>
+    </header>
+    <main>
+        <div id="data">
+            <h2>Data</h2>
+            <p>Area: </p>
+            <p>Population: </p>
+            <p>Capital: </p>
+            <p>Languages: </p>
+            <p>Currency: </p>
+            <p>Time Zone: </p>
+            <p>Calling Code: </p>
+            <p>Internet TLD: </p>
+        </div>
+        <div id="weather">
+            <h2>Weather</h2>
+            <img src="images/cloudy-forecast-summer-sun-icon.svg" alt="Weather Icon">
+            <p>Temperature: </p>
+            <p>Conditions: </p>
+            <p>Wind: </p>
+            <p>Wind Chill: </p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> | Samuel Okwan Paintsil | Ghana</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
