@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="A simple HTML document for week 04 to enhance a previous assignment by incorporating lazy loading and by making the webpage responsive to user interaction by filtering the displayed temple data.">
+    <meta name="author" content="Samuel Okwan Paintsil">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kings&display=swap" rel="stylesheet">
+    <script src="scripts/filtered-temples.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <title>Temples Album</title>
+</head>
+
+<body>
+    <header>
+        <div id="title"> <span id="heading">🏛️ Temple Album</span>
+            <a id="menu-toggle" href="#"></a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="filtered-temples.html">Home</a></li>
+                <li><a id="old" href="#">Old</a></li>
+                <li><a id="new" href="#">New</a></li>
+                <li><a id="large" href="#">Large</a></li>
+                <li><a id="small" href="#">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Temples</h1>
+        <p>Click on the images to view them in full size.</p>
+        <h2 id="h2">Home</h2>
+        <div class="gallery">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> | Samuel Okwan Paintsil | Ghana</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
