@@ -1,0 +1,66 @@
+/* Color variables */
+:root {
+    --b22234: #b22234;
+    --ffd700: #ffd700;
+    --22223b: #22223b;
+    --f9f9f9: #f9f9f9;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f9f9f9;
+    color: #22223b;
+    margin: 0;
+    padding: 2rem;
+}
+
+h1,
+h2 {
+    color: #b22234;
+    font-family: 'Michroma', 'Segoe UI', Arial, sans-serif;
+}
+
+.color-sample {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+.wireframe {
+    border: 2px dashed #b22234;
+    background: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    max-width: 400px;
+}
+
+.wireframe-label {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Color samples */
+.color-b22234 {
+    background: var(--b22234);
+}
+
+.color-ffd700 {
+    background: var(--ffd700);
+}
+
+.color-22223b {
+    background: var(--22223b);
+}
+
+.color-f9f9f9 {
+    background: var(--f9f9f9);
+}
