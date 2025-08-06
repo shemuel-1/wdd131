@@ -23,7 +23,7 @@ body {
 h1,
 h2 {
     color: #b22234;
-    font-family: 'Michroma', 'Segoe UI', Arial, sans-serif;
+    font-family: 'Merriweather', 'Segoe UI', Arial, sans-serif;
 }
 
 .color-sample {
@@ -33,6 +33,16 @@ h2 {
     border-radius: 4px;
     margin-right: 0.5rem;
     border: 1px solid #ccc;
+}
+
+#merriweather-font {
+    font-family: 'Merriweather', serif;
+    font-size: larger;
+}
+
+#segoe-font {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: larger;
 }
 
 .wireframe {
