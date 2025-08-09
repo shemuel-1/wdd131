@@ -25,15 +25,23 @@
         <form action="review.html" method="get">
             <label>Product Name *
                 <select id="select" name="pname" required>
-                    <option value="selectproduct" disabled selected>Select a Product </option>
+                    <option value="" disabled selected>Select a Product</option>
+                    <!-- JS will add more options here -->
                 </select>
             </label>
             <label>Ratings</label>
-            <label for="star-rating"><input id="star-rating" type="radio" name="rating">⭐⭐⭐⭐⭐</label>
-            <label for="star-rating"><input id="star-rating" type="radio" name="rating">⭐⭐⭐⭐</label>
-            <label for="star-rating"><input id="star-rating" type="radio" name="rating">⭐⭐⭐</label>
-            <label for="star-rating"><input id="star-rating" type="radio" name="rating">⭐⭐</label>
-            <label for="star-rating"><input id="star-rating" type="radio" name="rating">⭐</label>
+            <div class="star-rating">
+                <input type="radio" id="star5" name="rating" value="5">
+                <label for="star5">⭐⭐⭐⭐⭐</label>
+                <input type="radio" id="star4" name="rating" value="4">
+                <label for="star4">⭐⭐⭐⭐</label>
+                <input type="radio" id="star3" name="rating" value="3">
+                <label for="star3">⭐⭐⭐</label>
+                <input type="radio" id="star2" name="rating" value="2">
+                <label for="star2">⭐⭐</label>
+                <input type="radio" id="star1" name="rating" value="1">
+                <label for="star1">⭐</label>
+            </div>
 
             <label for="installationDate">Date Of Installation *<input id="installationDate" type="date" name="date"
                     required></label>
@@ -54,12 +62,13 @@
             <label for="wReview">Written Review (Optional)<input id="wReview" type="text" name="wReview"></label>
             <label for="name">Your Name (Optional)<input id="name" type="text" name="fname"></label>
 
-            <input type="submit" value="Send Review"></input>
+            <input type="submit" value="Send Review">
         </form>
     </main>
     <footer>
         <p>&copy; <span id="currentYear"></span> | Samuel Okwan Paintsil | Ghana</p>
         <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
 </body>
 
 </html>
