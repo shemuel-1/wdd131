@@ -78,7 +78,7 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="date"],
-input[type="textarea"],
+textarea,
 select{
     width: 100%;
     padding: 0.75em;
