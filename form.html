@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Product Review Form for WDD 131">
+    <meta name="author" content="Samuel Okwan Paintsil">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Mono:ital@0;1&display=swap"
+        rel="stylesheet">
+    <script src="scripts/form.js" defer></script>
+    <title>WDD 131 - Product Review</title>
+</head>
+
+<body>
+    <header>
+        <h1>Product Review Form</h1>
+        <p>Please leave an honest review about your experience with our products</p>
+    </header>
+    <main>
+        <form action="review.html" method="get">
+            <label>Product Name *
+                <select id="select" name="pname" required>
+                    <option value="selectproduct" disabled selected>Select a Product </option>
+                </select>
+            </label>
+            <label>Ratings</label>
+            <label for="star-rating"><input id="star-rating" type="radio" name="rating">⭐⭐⭐⭐⭐</label>
+            <label for="star-rating"><input id="star-rating" type="radio" name="rating">⭐⭐⭐⭐</label>
+            <label for="star-rating"><input id="star-rating" type="radio" name="rating">⭐⭐⭐</label>
+            <label for="star-rating"><input id="star-rating" type="radio" name="rating">⭐⭐</label>
+            <label for="star-rating"><input id="star-rating" type="radio" name="rating">⭐</label>
+
+            <label for="installationDate">Date Of Installation *<input id="installationDate" type="date" name="date"
+                    required></label>
+
+            <label>Which features did you find useful in the product? (Check all that apply)</label>
+            <div class="features">
+                <label for="performance"><input type="checkbox" id="performance" name="performance"
+                        value="performance">Performance</label>
+                <label for="durability"><input type="checkbox" id="durability" name="durability"
+                        value="durability">Durability</label>
+                <label for="design"><input type="checkbox" id="design" name="design" value="design">Design</label>
+                <label for="ease-of-use"><input type="checkbox" id="ease-of-use" name="ease-of-use"
+                        value="ease-of-use">Ease of use</label>
+                <label for="functionality"><input type="checkbox" id="functionality" name="functionality"
+                        value="functionality">Functionality</label>
+            </div>
+
+            <label for="wReview">Written Review (Optional)<input id="wReview" type="text" name="wReview"></label>
+            <label for="name">Your Name (Optional)<input id="name" type="text" name="fname"></label>
+
+            <input type="submit" value="Send Review"></input>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> | Samuel Okwan Paintsil | Ghana</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+</body>
+
+</html>
